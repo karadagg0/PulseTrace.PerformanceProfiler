@@ -15,7 +15,7 @@
   {
       options.ThresholdMilliseconds = 1000;
       options.IncludeControllers = new List<string> { "WeatherForecast" };
-      options.OutputJsonPath = "C:\\Users\\ekink\\source\\repos\\PulceTrace.txt";
+      options.OutputJsonPath = "Your_local_path";
   });
   builder.Services.AddControllers(options =>
   {
